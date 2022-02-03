@@ -22,6 +22,7 @@ func (table *PradzTable)Init() {
 	table.FloatVal = 2
 }
 
+
 func (table *PradzTable)AddElement(args ...interface{}) {
 	if table.Index<cap(table.Elements){
 		addelem := ""
